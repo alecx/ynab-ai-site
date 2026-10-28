@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ynab-ai privacy policy</title>
+</head>
+<body>
+  <h1>ynab-ai privacy policy</h1>
+  <p>ynab-ai is a private tool run by its operator for one household. It is not a public service.</p>
+  <p>The Google scope is read-only Gmail: https://www.googleapis.com/auth/gmail.readonly. The app does not send, delete, or change mail.</p>
+  <p>Gmail is read only when the operator starts a search for one transaction. The search looks from 10 days before that transaction to 3 days after it, and it reads at most 20 messages in each connected mailbox. The filter is the sender and subject configured for that payee.</p>
+  <p>The refresh token and the open review stay on the operator's home server. A review is kept in memory for up to 30 minutes. The app does not keep a copy of the mailbox.</p>
+  <p>A search does not send mail to anyone else. If the operator selects one email and asks for a split, the app sends that email's subject, at most 6000 characters of its body, the transaction total, and the category names to Anthropic. The operator reviews the result before any budget write.</p>
+  <p>The app does not sell Google data and does not use it for advertising.</p>
+  <p>To disconnect a mailbox, the operator revokes ynab-ai at <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a> and deletes the stored token on the server.</p>
+  <p>Contact: <a href="mailto:alexandru.manea@gmail.com">alexandru.manea@gmail.com</a></p>
+</body>
+</html>
